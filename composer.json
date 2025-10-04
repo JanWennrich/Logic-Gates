@@ -35,5 +35,14 @@
             "ergebnis/composer-normalize": true,
             "phpstan/extension-installer": true
         }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpcs",
+            "vendor/bin/phpstan",
+            "vendor/bin/phpunit",
+            "vendor/bin/composer-dependency-analyser",
+            "composer validate"
+        ]
     }
 }
