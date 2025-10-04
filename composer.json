@@ -3,13 +3,15 @@
     "description": "Library to simulate circuits using gates like AND, OR, XOR.",
     "type": "library",
     "require-dev": {
-        "phpstan/phpstan": "2.1.30",
-        "phpunit/phpunit": "^12.4",
-        "squizlabs/php_codesniffer": "^4.0",
+        "ergebnis/composer-normalize": "^2.48",
         "phpstan/extension-installer": "^1.4",
-        "phpstan/phpstan-strict-rules": "2.0.7",
+        "phpstan/phpstan": "2.1.30",
         "phpstan/phpstan-deprecation-rules": "2.0.3",
-        "phpstan/phpstan-phpunit": "2.0.7"
+        "phpstan/phpstan-phpunit": "2.0.7",
+        "phpstan/phpstan-strict-rules": "2.0.7",
+        "phpunit/phpunit": "^12.4",
+        "shipmonk/composer-dependency-analyser": "^1.8",
+        "squizlabs/php_codesniffer": "^4.0"
     },
     "license": "GPL-3.0-or-later",
     "autoload": {
@@ -23,11 +25,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true,
         "allow-plugins": {
+            "ergebnis/composer-normalize": true,
             "phpstan/extension-installer": true
         }
     }
