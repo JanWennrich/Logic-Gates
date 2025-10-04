@@ -1,5 +1,5 @@
 {
-    "name": "janw/logic-gates",
+    "name": "jan-wennrich/logic-gates",
     "description": "Library to simulate circuits using gates like AND, OR, XOR.",
     "type": "library",
     "require": {
