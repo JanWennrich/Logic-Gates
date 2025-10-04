@@ -1,0 +1,34 @@
+{
+    "name": "janw/logic-gates",
+    "description": "Library to simulate circuits using gates like AND, OR, XOR.",
+    "type": "library",
+    "require-dev": {
+        "phpstan/phpstan": "2.1.30",
+        "phpunit/phpunit": "^12.4",
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-strict-rules": "2.0.7",
+        "phpstan/phpstan-deprecation-rules": "2.0.3",
+        "phpstan/phpstan-phpunit": "2.0.7"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "JanW\\LogicGates\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Wennrich"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}
