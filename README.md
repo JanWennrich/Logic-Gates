@@ -2,8 +2,6 @@
 
 A tiny PHP library for building and simulating digital circuits from simple logic gates (e.g., `AND`, `OR`, `NOT`, `XOR`) and composing them into larger combinational networks.
 
----
-
 ## ✨ Features
 
 * All common boolean gates: 
@@ -17,8 +15,6 @@ A tiny PHP library for building and simulating digital circuits from simple logi
 * Zero dependencies
 * Unit tested
 
----
-
 ## 📦 Installation
 
 This project is a standard Composer library.
@@ -26,7 +22,6 @@ This project is a standard Composer library.
 ```bash
 composer require jan-wennrich/logic-gates
 ```
----
 
 ## 🚀 Example
 
@@ -50,7 +45,6 @@ $trueInput = new BinaryTrueGate();
 (new AndGate($trueInput, $trueInput))->getOutput()); // returns "true"
 
 ```
----
 
 ## 🧪 Testing
 
@@ -79,8 +73,6 @@ To run PHPUnit for example use this command:
 ```bash
 vendor/bin/phpunit
 ```
-
----
 
 ## 📄 License
 
