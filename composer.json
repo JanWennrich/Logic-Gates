@@ -2,6 +2,9 @@
     "name": "janw/logic-gates",
     "description": "Library to simulate circuits using gates like AND, OR, XOR.",
     "type": "library",
+    "require": {
+        "php": ">=8"
+    },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.48",
         "phpstan/extension-installer": "^1.4",
