@@ -1,3 +1,5 @@
 # Contributing
 
-This package follows the [QUIQQER contribution guidelines](https://dev.quiqqer.com/quiqqer/stabilization/documentation/-/wikis/home).
+Feel free to create an issue for any bugs or feature requests.
+
+Before submitting a pull request, ensure that all tests succeed.
